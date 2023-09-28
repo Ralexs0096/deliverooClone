@@ -24,10 +24,11 @@ const SearchBar = () => {
             placeholder="Restaurants, groceries, dishes"
           />
         </View>
-        <Link href={'/'} asChild />
-        <TouchableOpacity style={styles.optionButton}>
-          <Ionicons name="options-outline" size={20} color={Colors.primary} />
-        </TouchableOpacity>
+        <Link href={'/'} asChild>
+          <TouchableOpacity style={styles.optionButton}>
+            <Ionicons name="options-outline" size={20} color={Colors.primary} />
+          </TouchableOpacity>
+        </Link>
       </View>
     </View>
   );
